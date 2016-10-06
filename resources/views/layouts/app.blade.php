@@ -4,6 +4,7 @@
     @include('layouts.fragments.head')
 </head>
 <body>
+
 	<!-- navigation -->
     @include('layouts.fragments.nav')
     @include('layouts.includes.carousel')
