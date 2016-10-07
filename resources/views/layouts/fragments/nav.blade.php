@@ -1,5 +1,5 @@
 <div class="navbar-wrapper">
-     <nav class="navbar navbar-inverse navbar-fixed-top">
+     <nav class="navbar navbar-inverse navbar-static-top">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
@@ -15,7 +15,7 @@
           <li><a href="#">Support</a></li>
           <li><a href="#">Guidelines</a></li>
           <li><a href="#">Prizes</a></li>
-          <li><a href="#">News</a></li>
+          <li><a href="{{ route('etg.faq') }}">FAQ</a></li>
           <li><a href="#">Statistics</a></li>
         </ul>
       </div>

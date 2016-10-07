@@ -61,8 +61,8 @@ class ApiController extends Controller
 				$api = new ApiController();
 
 				try {
-					$data = json_decode($api->request('get_users'));
-					return $data;
+					$data = collect(json_decode($api->request('get_users'), true));
+					return $data->get('name')->where('race_name', 'assura');
 
 				} catch (\RuntimeException $ex) {
 					die(sprintf('Http error %s with code %d', $ex->getMessage(), $ex->getCode()));

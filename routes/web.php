@@ -20,3 +20,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::get('/api', 'ApiController@getAPI');
+
+Route::get('/faq', [
+	'as' => 'etg.faq',
+	'uses' => 'PagesController@getFaq'
+	]);

@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('content')
+@include('layouts.includes.carousel')
 <div class="container-fluid">
+      <!-- carousel -->
 
       <!-- START THE FEATURETTES -->
       <!-- under fold -->
@@ -13,6 +15,7 @@
       	  <div class="col-md-5 col-md-pull-7">
       	    <h2 class="featurette-heading">Watch the trailer. <span class="text-muted">See for yourself.</span></h2>
       	    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p><a class="btn btn-lg btn-warning" href="http://erectus.wiki/videos.html" target="_blank" role="button">Watch more videos &hellip;</a></p>
       	  </div>
       	</div>
       <!-- end under fold -->
@@ -27,7 +30,7 @@
             In the game, you play as a white, brown, black or yellow individual of the Homo sapiens. Together with thousands of other players, you explore the dynamics of working together, trading and forming alliances. The common enemy that you encounter in the game, is the Erectus people.
            </p>
           </div>
-			<p><a class="btn btn-lg btn-warning" href="#" role="button">Learn more &raquo;</a></p>
+			     <p><a class="btn btn-lg btn-warning" href="#" role="button">Learn more &raquo;</a></p>
         </div>        
       </div>
       <!-- end about -->
@@ -92,7 +95,7 @@
           <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive center-block" src="{{ asset('assets/images/Erectus Speer.jpg') }}" alt="Generic placeholder image">
         </div>
       </div>
       <!-- /END THE FEATURETTES -->

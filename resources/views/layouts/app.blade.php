@@ -7,7 +7,6 @@
 
 	<!-- navigation -->
     @include('layouts.fragments.nav')
-    @include('layouts.includes.carousel')
     <!-- content -->
     @yield('content')
     <!-- scripts -->
