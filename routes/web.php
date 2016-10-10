@@ -19,7 +19,8 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index');
 
-Route::get('/api', 'ApiController@getAPI');
+Route::get('/userInfo/{email?}', 'ApiController@getUserByEmail');
+Route::get('/userList', 'ApiController@getUsers');
 
 Route::get('/faq', [
 	'as' => 'etg.faq',

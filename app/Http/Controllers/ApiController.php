@@ -57,17 +57,28 @@ class ApiController extends Controller
     			return $this->response = $response;
     		}
 
-			public function getAPI() {
+			public function getUserByEmail($email) {
 				$api = new ApiController();
 
 				try {
-					$data = collect(json_decode($api->request('get_users')));
-					return $data->all();
+                        $email = urlencode($email);
+                         return json_decode($api->request('get_user_by_email/' . $email));
+                        
 
 				} catch (\RuntimeException $ex) {
 					die(sprintf('Http error %s with code %d', $ex->getMessage(), $ex->getCode()));
 				}
 			}
+
+            public function getUsers() {
+                $api = new ApiController();
+
+                try {                        
+                    return json_decode($api->request('get_users'));
+                } catch (\RuntimeException $ex) {
+                    die(sprintf('Http error %s with code %d', $ex->getMessage(), $ex->getCode()));
+                }
+            }
 
 
 }
