@@ -7,11 +7,11 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><img src="{{ asset('assets/images/logo_mid2.png') }}" class="brand-logo" alt=""></a>
+        <a class="navbar-brand" href="{{ route('etg.home') }}"><img src="{{ asset('assets/images/logo_mid2.png') }}" class="brand-logo" alt=""></a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#">About</a></li>
+          <li><a href="{{ route('etg.home') }}">Home</a></li>
           <li><a href="#">Support</a></li>
           <li><a href="#">Guidelines</a></li>
           <li><a href="#">Prizes</a></li>

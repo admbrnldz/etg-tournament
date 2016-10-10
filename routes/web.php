@@ -25,3 +25,8 @@ Route::get('/faq', [
 	'as' => 'etg.faq',
 	'uses' => 'PagesController@getFaq'
 	]);
+
+Route::get('/', [
+	'as' => 'etg.home',
+	'uses' => 'PagesController@getHome'
+	]);

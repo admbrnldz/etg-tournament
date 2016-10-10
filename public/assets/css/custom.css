@@ -4,6 +4,25 @@ body{
 	font-family: 'amaranthregular';
 }
 
+section {
+	padding: 30px 0 0 0;
+	margin: 0
+}
+
+.text-container-dark {
+	background-color: rgba(0,0,0,.5);
+	border-radius: 5px;
+	padding: 50px;
+	margin: 15px;
+}
+
+.text-container-light {
+	border: 1px solid #eee;
+	border-radius: 5px;
+	padding: 50px;
+	margin: 15px;
+}
+
 /*carousel*/
 .carousel {
 	height: 550px;
@@ -102,15 +121,15 @@ body{
 .screenshots .col-lg-3 {
 	text-align: center;
 	padding: 20px;
-	height: 500px;
+	height: 400px;
 	border: 1px solid #eeeeee;
 }
 .screenshots {
 	padding: 10px;
 }
 
-.img-circle {
-	width: 200px;
+.img-character {
+	height: 50%;
 }
 .screenshots p {
 	border-top: 1px solid #eee;
@@ -157,12 +176,7 @@ body{
 	background-image: url(../images/bg-rag.jpg);
 	padding: 50px 0;
 }
-.text-container {
-	background-color: rgba(0,0,0,.5);
-	border-radius: 5px;
-	padding: 50px;
-	margin: 15px;
-}
+
 /*end rag*/
 
 /*end featurette*/
@@ -184,6 +198,21 @@ footer {
 .faq-container .header-container {
 	margin-bottom: 50px;
 }
+.faq-container section {
+	border-top: 1px solid #eee; 
+}
+.faq-container .panel-body>ol>li{
+	font-size: 20px;
+	line-height: 2;
+	color: rgba(114,74,38, 1);
+}
+.faq-container .panel-body ul li {
+	font-size: 18px;
+	list-style: disc;
+}
+.faq-container .panel-body {
+	background-color: #fff9c5;
+}
 /*end faq page*/
 /*end other pages*/
 
@@ -197,6 +226,7 @@ footer {
 .panel-default {
 	border-color: rgba(114,74,38, 1);
 }
+
 /*END BT OVERRIDES*/
 /*===========================================================================================================*/
 /*media*/

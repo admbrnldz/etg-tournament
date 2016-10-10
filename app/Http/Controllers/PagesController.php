@@ -16,5 +16,9 @@ class PagesController extends Controller
     	return view('pages.faq');
     }
 
+    public function getHome() {
+    	return view('pages.main');
+    }
+
 
 }
