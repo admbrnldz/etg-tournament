@@ -78,9 +78,36 @@
                 
                 <div class="text-container-dark">
                   <ol class="lead">
-                    <li>In the game, you play as a white, brown, black or yellow individual of the Homo sapiens. Together with thousands of other players, you explore the dynamics of working together, trading and forming alliances. The common enemy that you encounter in the game, is the Erectus people.</li>
-                    <li>In the game, you play as a white, brown, black or yellow individual of the Homo sapiens. Together with thousands of other players, you explore the dynamics of working together, trading and forming alliances. The common enemy that you encounter in the game, is the Erectus people.</li>
-                    <li>In the game, you play as a white, brown, black or yellow individual of the Homo sapiens. Together with thousands of other players, you explore the dynamics of working together, trading and forming alliances. The common enemy that you encounter in the game, is the Erectus people.</li>
+                    <li>
+                      All contestants must be bona fide students of their respective institution and currently enrolled in the second semester of current academic year.
+                    </li>
+                    <li>
+                      Each team shall consist of a minimum of five (5) to a maximum of twenty (20) members only. An institution can have more than one team.
+                    </li>
+                    <li>
+                      Each member of a team should represent the same department.
+                    </li>
+                    <li>
+                      The team should compose of unique members. If a team member is found to be registered to another team, the latter team will either find another member or they will not be able to register the tournament.
+                    </li>
+                    <li>
+                      A team should have a team leader or coordinator
+                    </li>
+                    <li>
+                      To apply for registration, the student must approach their respective Dean’s office for application. A recommendation letter from the said office will follow which includes the names of all the participants per team to be passed to the organizers of this tournament
+                    </li>
+                    <li>
+                      Upon registration, the applicant will be given a beta key to access the official game website for the tournament. The website will post details and updates on the game tournament
+                    </li>
+                    <li>
+                      Each beta key is unique and will be given individually
+                    </li>
+                    <li>
+                      The tournament will start on November 21, 2016 and will cover whole Mindanao Region
+                    </li>
+                    <li>
+                      Deadline of registration of entries will be on November 7, 2016. Late entries will not be accommodated
+                    </li>
                   </ol>      
             </div>
       </section>      
@@ -88,7 +115,7 @@
 
       <!-- how to join -->
       <section class="no-bg">
-        <h1 class="featurette-heading ta-center">How to join the tournament?</h1>
+        <h1 class="featurette-heading ta-center">What are the rewards for winning?</h1>
         <div class="col-md-12">
            <div class="text-container-light">
                   <ol class="lead">

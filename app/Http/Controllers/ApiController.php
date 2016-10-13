@@ -62,7 +62,8 @@ class ApiController extends Controller
 
 				try {
                         $email = urlencode($email);
-                         return json_decode($api->request('get_user_by_email/' . $email));
+                        $data = json_decode($api->request('get_user_by_email/' . $email));
+                         return view('pages.player.list', 'data');
                         
 
 				} catch (\RuntimeException $ex) {
@@ -74,7 +75,19 @@ class ApiController extends Controller
                 $api = new ApiController();
 
                 try {                        
-                    return json_decode($api->request('get_users'));
+                    $data = json_decode($api->request('get_users'), true);
+                    return view('pages.player.list', compact('data'))->render();
+                } catch (\RuntimeException $ex) {
+                    die(sprintf('Http error %s with code %d', $ex->getMessage(), $ex->getCode()));
+                }
+            }
+
+            public function test() {
+                $api = new ApiController();
+
+                try {                        
+                    $data = json_decode($api->request('get_users'), true);
+                    var_dump($data);
                 } catch (\RuntimeException $ex) {
                     die(sprintf('Http error %s with code %d', $ex->getMessage(), $ex->getCode()));
                 }

@@ -21,6 +21,7 @@ Route::get('/home', 'HomeController@index');
 
 Route::get('/userInfo/{email?}', 'ApiController@getUserByEmail');
 Route::get('/userList', 'ApiController@getUsers');
+Route::get('/test', 'ApiController@test');
 
 Route::get('/faq', [
 	'as' => 'etg.faq',

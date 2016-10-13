@@ -15,7 +15,6 @@
               <p>Get a chance to win awesome prizes!</p>
               <p>
                 <a class="btn btn-lg btn-warning" href="#" role="button">How to Join</a>
-                <a class="btn btn-lg btn-warning" href="#" role="button">Register Now!</a>
               </p>
             </div>
           </div>
@@ -23,9 +22,22 @@
         <div class="item">
           <div class="container slider-size slider2">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-warning" href="#" role="button">Learn more</a></p>
+              <div class="row">
+                <div class="col-xs-12 col-md-12">
+                  <h1>In partnership with:</h1>
+                </div>
+              </div>
+              <div class="row sponsors-container">
+                <div class="col-xs-4 col-md-4 icon-container">
+                  <img class="sponsor-pic" src="{{ asset('assets/images/sponsors/asus.png') }}" alt="">
+                </div>
+                <div class="col-xs-4 col-md-4 icon-container">
+                  <img class="sponsor-pic" src="{{ asset('assets/images/sponsors/intel.png') }}" alt="">
+                </div>
+                <div class="col-xs-4 col-md-4 icon-container">
+                  <img class="sponsor-pic" src="{{ asset('assets/images/sponsors/microsoft.png') }}" alt="">
+                </div>
+              </div>
             </div>
           </div>
         </div>

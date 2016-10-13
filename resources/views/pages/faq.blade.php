@@ -66,16 +66,6 @@
 							<li>If you are a resident of Brunei, Indonesia, Malaysia or Philippines, you can also play on www.erectus.asia and join the tournament.</li>
 						</ul>
 					</li>
-					<li>Is there a tutorial or manual on how to play the game?
-						<ul>
-							<li>Yes. It can be found here. <a href="http://erectus.wiki/index.html" >erectus wiki</a></li>
-						</ul>
-					</li>
-					<li>Can I play as the erectus?
-						<ul>
-							<li>No, the erectus are computer controlled</li>
-						</ul>
-					</li>
 				</ol>
 			</div>
 		</div>
