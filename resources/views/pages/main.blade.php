@@ -43,27 +43,24 @@
 
       <!-- Fours characters -->
       <section class="no-bg">
-        <h1 class="featurette-heading ta-center">Characters</h1>
+        <h1 class="featurette-heading text-center">Characters</h1>
         <div class="row screenshots">
-          <div class="col-lg-3 col-sm-3">
+          <div class="col-xs-6 col-md-3 char-panel" data-toggle="modal" data-target="#modal-assura" id="assura-panel">
             <img class="img-character" src="{{ asset('assets/images/race-assura.png') }}" alt="">
-            <h2 class="featurette-heading">Assura</h2>
-            <p>A well rounded civilization with no overly weak or strong attributes, a good civilization for beginners.</p>
+            <h3 class="featurette-heading">Assura</h3>
+
           </div><!-- /.col-lg-3 -->
-          <div class="col-lg-3 col-sm-3">
+          <div class="col-xs-6 col-md-3 char-panel" data-toggle="modal" data-target="#modal-ikari" id="ikari-panel">
             <img class="img-character" src="{{ asset('assets/images/race-ikari.png') }}" alt="">
-            <h2 class="featurette-heading">Ikari</h2>
-            <p>Powerful because of their skills with technology, but slow. A suitable race for strategic players.</p>
+            <h3 class="featurette-heading">Ikari</h3>
           </div><!-- /.col-lg-3 -->
-          <div class="col-lg-3 col-sm-3">
+          <div class="col-xs-6 col-md-3 char-panel" data-toggle="modal" data-target="#modal-ngane" id="ngane-panel">
             <img class="img-character" src="{{ asset('assets/images/race-ngane.png') }}" alt="">
-            <h2 class="featurette-heading">Ngane</h2>
-            <p>This civilization is fast, strong and built for aggressive playstyles.</p>
+            <h3 class="featurette-heading">Ngane</h3>
           </div><!-- /.col-lg-3 -->
-          <div class="col-lg-3 col-sm-3">
+          <div class="col-xs-6 col-md-3 char-panel" data-toggle="modal" data-target="#modal-okiteng" id="okiteng-panel">
             <img class="img-character" src="{{ asset('assets/images/race-okiteng.png') }}" alt="">
-            <h2 class="featurette-heading">Okiteng</h2>
-            <p> Complex and economically sound, well suited for defensive players.</p>
+            <h3 class="featurette-heading">Okiteng</h3>
           </div><!-- /.col-lg-3 -->
         </div><!-- /.row -->
       </section>
@@ -71,12 +68,12 @@
       <!-- end of characters -->
 
       <!-- rag -->
-      <section class="has-bg">
+      <section class="has-bg" id="rag">
             <div class="row featurette section-rag">
               <div class="col-md-12">
                 <h2 class="featurette-heading ta-center">Tournament Rules and Guidelines</h2>
                 
-                <div class="text-container-dark">
+                <div class="text-container">
                   <ol class="lead">
                     <li>
                       All contestants must be bona fide students of their respective institution and currently enrolled in the second semester of current academic year.
@@ -112,50 +109,118 @@
             </div>
       </section>      
       <!-- end rag -->
-
-      <!-- how to join -->
-      <section class="no-bg">
-        <h1 class="featurette-heading ta-center">What are the rewards for winning?</h1>
-        <div class="col-md-12">
-           <div class="text-container-light">
-                  <ol class="lead">
-                    <li>In the game, you play as a white, brown, black or yellow individual of the Homo sapiens. Together with thousands of other players, you explore the dynamics of working together, trading and forming alliances. The common enemy that you encounter in the game, is the Erectus people.</li>
-                    <li>In the game, you play as a white, brown, black or yellow individual of the Homo sapiens. Together with thousands of other players, you explore the dynamics of working together, trading and forming alliances. The common enemy that you encounter in the game, is the Erectus people.</li>
-                    <li>In the game, you play as a white, brown, black or yellow individual of the Homo sapiens. Together with thousands of other players, you explore the dynamics of working together, trading and forming alliances. The common enemy that you encounter in the game, is the Erectus people.</li>
-                  </ol>      
+      <!-- faq -->
+      <section class="no-bg" id="faq">
+        <h2 class="featurette-heading text-center">FAQs</h2>
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  General Gameplay
+                </a>
+              </h4>
             </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+             <div class="panel-body">
+                    <ol>
+                      <li>What is the game about?
+                        <ul>
+                          <li>The dramatic encounter between Homo sapiens and Homo erectus 130,000 years ago. As a player you play as the Homo sapiens</li>
+                        </ul>
+                      </li>
+                      <li>What is the reward for winning?
+                        <ul>
+                          <li>Fame and Glory</li>
+                        </ul>
+                      </li>
+                      <li>Is the game free to play?
+                        <ul>
+                          <li>Yes, the game can be played entirely for free. Premium boosts can be bought (optional) by players to improve various aspects of the game.</li>
+                        </ul>
+                      </li>
+                      <li>Is there a tutorial or manual on how to play the game?
+                        <ul>
+                          <li>Yes. It can be found here. <a href="http://erectus.wiki/index.html" target="_blank">Erectus Wiki</a></li>
+                        </ul>
+                      </li>
+                      <li>Can I play as the erectus?
+                        <ul>
+                          <li>No, the erectus are computer controlled</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Registration
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+             <div class="panel-body">
+                    <ol>
+                      <li>I'm getting an error message telling me that my e-mail address is invalid, what do I do?
+                        <ul>
+                          <li>You will receive this message when trying to sign up using an e-mail address that is already in our database, please use a different e-mail address.</li>
+                        </ul>
+                      </li>
+                      <li>I did not receive a confirmation email after signing up
+                        <ul>
+                          <li>You should receive one soon after the registration. Check your spam folder.</li>
+                        </ul>
+                      </li>
+                      <li>Where can I register?
+                        <ul>
+                          <li>At the homepage! <a href="http://www.erectus.world" target="_blank">Click here</a></li>
+                          <li>If you are a resident of Brunei, Indonesia, Malaysia or Philippines, you can also play on www.erectus.asia and join the tournament.</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Login
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+                      <ol>
+                        <li>I can't login with Facebook.
+                          <ul>
+                            <li>You have to have a Facebook account in order to be able to log in using Facebook. Make sure to have your Facebook login details at hand.</li>
+                          </ul>
+                        </li>
+                        <li>I can't login with Google.
+                          <ul>
+                            <li>You have to have a Google account in order to be able to log in using Google. Make sure to have your Google login details at hand.</li>
+                          </ul>
+                        </li>
+                        <li>I forgot my password, where can I reset it?
+                          <ul>
+                            <li>You can reset your password using the “Forgot password” button on the login screen.</li>
+                          </ul>
+                        </li>
+                      </ol>
+                    </div>
+            </div>
+          </div>
         </div>
       </section>
-      <!-- end how to join -->
-
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="{{ asset('assets/images/Erectus Speer.jpg') }}" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <div class="row featurette has-bg">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="{{ asset('assets/images/Erectus Speer.jpg') }}" alt="Generic placeholder image">
-        </div>
-      </div>
-      <!-- /END THE FEATURETTES -->
-     
+      
+      <!-- end faq -->
 </div><!-- /.container -->
-    
-    <footer>
-    <div class="container-fluid">
-      <p>&copy; 2016 Maata, Inc</p>
-    </div>
-     
-    </footer>
 
+<!-- modal -->
+ @include('layouts.includes.modals')
+<!-- end modal -->
 @endsection

@@ -19,6 +19,4 @@ class PagesController extends Controller
     public function getHome() {
     	return view('pages.main');
     }
-
-
 }

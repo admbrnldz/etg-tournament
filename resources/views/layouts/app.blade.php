@@ -9,6 +9,8 @@
     @include('layouts.fragments.nav')
     <!-- content -->
     @yield('content')
+    <!-- footer -->
+    @include('layouts.fragments.footer')
     <!-- scripts -->
     @include('layouts.fragments.scripts')
 	@yield('script-add-on')

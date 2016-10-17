@@ -32,3 +32,13 @@ Route::get('/', [
 	'as' => 'etg.home',
 	'uses' => 'PagesController@getHome'
 	]);
+
+Route::get('/#rag', [
+	'as' => 'etg.rag',
+	'uses' => 'PagesController@getHome'
+	]);
+
+Route::get('/#prizes', [
+	'as' => 'etg.prizes',
+	'uses' => 'PagesController@getHome'
+	]);
