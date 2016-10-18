@@ -3,7 +3,7 @@
 <head>
     @include('layouts.fragments.head')
 </head>
-<body>
+<body id="page-top" data-spy="scroll">
 
 	<!-- navigation -->
     @include('layouts.fragments.nav')

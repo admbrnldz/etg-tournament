@@ -75,6 +75,7 @@ section {
 .navbar-inverse .navbar-nav>li>a:focus{
 	color: #fff;
 	font-weight: bold;
+	background-color: transparent;
 	text-transform: uppercase;
 }
 .navbar-inverse .navbar-toggle {
@@ -87,7 +88,11 @@ section {
 	border-color: #ec971f;
 	transition-duration: .25s;
 }
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+	background-color: transparent;
 	color: #ec971f;
 	transition-duration: .25s;
 } 
@@ -173,10 +178,25 @@ section {
 	padding: 50px 0;
 }
 /*end rag*/
-.section-prizes {
-	background-image: url(../images/bg-rag.jpg);
+
+/*faq*/
+.section-faq {
 	padding: 50px 0;	
 }
+/*end faq*/
+
+/*prizes*/
+.section-prizes {
+	padding: 50px 0;
+}
+/*end prizess*/
+
+/*stats*/
+.section-statistics {
+	background-image: url(../images/bg-rag.jpg);
+	padding: 50px 30px;
+}
+/*end stats*/
 
 /*faq*/
 #faq .panel-heading:hover {
