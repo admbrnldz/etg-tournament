@@ -96,3 +96,17 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'amaranthregular';
+    src: url('../fonts/Amaranth-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'amaranthbold';
+    src: url('../fonts/Amaranth-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}

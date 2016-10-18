@@ -3,13 +3,14 @@
 <head>
     @include('layouts.fragments.head')
 </head>
-<body>
+<body id="page-top" data-spy="scroll">
 
 	<!-- navigation -->
     @include('layouts.fragments.nav')
-    @include('layouts.includes.carousel')
     <!-- content -->
     @yield('content')
+    <!-- footer -->
+    @include('layouts.fragments.footer')
     <!-- scripts -->
     @include('layouts.fragments.scripts')
 	@yield('script-add-on')

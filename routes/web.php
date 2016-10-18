@@ -18,3 +18,27 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/userInfo/{email?}', 'ApiController@getUserByEmail');
+Route::get('/userList', 'ApiController@getUsers');
+Route::get('/test', 'ApiController@test');
+
+Route::get('/faq', [
+	'as' => 'etg.faq',
+	'uses' => 'PagesController@getFaq'
+	]);
+
+Route::get('/', [
+	'as' => 'etg.home',
+	'uses' => 'PagesController@getHome'
+	]);
+
+Route::get('/#rag', [
+	'as' => 'etg.rag',
+	'uses' => 'PagesController@getHome'
+	]);
+
+Route::get('/#prizes', [
+	'as' => 'etg.prizes',
+	'uses' => 'PagesController@getHome'
+	]);
