@@ -13,9 +13,8 @@
         <ul class="nav navbar-nav">
           <li><a href="#rag">Guidelines</a></li>
           <li><a href="#faq">FAQ</a></li>
-          <li><a href="#">Prizes</a></li>          
+          <li><a href="#prizes">Prizes</a></li>          
           <li><a href="#">Statistics</a></li>
-          <li><a href="#">Support</a></li>
         </ul>
       </div>
     </nav>

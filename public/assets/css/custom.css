@@ -9,10 +9,6 @@ section {
 	margin: 0
 }
 
-.modal-header {
-	background-color: black;
-}
-
 /*carousel*/
 .carousel {
 	height: 610px;
@@ -49,8 +45,11 @@ section {
 
 /*navbar*/
 .navbar-inverse {
-	background-color: rgba(114,74,38, 1);
+	background-color: #724a26;
 	border-width: 0;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
 }
 .navbar-wrapper {
 	position: absolute;
@@ -86,9 +85,11 @@ section {
 .navbar-inverse .navbar-toggle:focus {
 	background: none;
 	border-color: #ec971f;
+	transition-duration: .25s;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: #ec971f;
+	transition-duration: .25s;
 } 
 
 /*end navbar*/
@@ -108,7 +109,7 @@ section {
 }
 .screenshots .col-xs-6:hover {
 	box-shadow: 0px 6px 24px -4px;
-	transition-duration: .5s;
+	transition-duration: .25s;
 	cursor: pointer;
 }
 .screenshots {
@@ -134,7 +135,7 @@ section {
 }
 .playstyle-container {
 	background-color: #fff9c5;
-	color: rgba(114,74,38, 1);
+	color: #724a26;
 	margin-top: 15px;
 	padding: 25px 0;
 }
@@ -171,17 +172,52 @@ section {
 	background-image: url(../images/bg-rag.jpg);
 	padding: 50px 0;
 }
-
 /*end rag*/
+.section-prizes {
+	background-image: url(../images/bg-rag.jpg);
+	padding: 50px 0;	
+}
+
+/*faq*/
+#faq .panel-heading:hover {
+	cursor: pointer;
+	opacity: .9;
+	transition-duration: .25s;
+}
+/*end faq*/
 
 /*end featurette*/
 
 /*footer*/
 footer {
-	background-color: rgba(114,74,38, 1);
+	background-color: #724a26;
 	color: #fff;
-	padding: 25px;
+	padding: 50px 0;
+	margin-top: 100px;
 	width: 100%;
+}
+.icon-footer {
+	font-size: 30px;
+	display: inline-block;
+	padding: 0 15px;
+	color: #fff;
+}
+.icon-footer:hover,
+#maata-link:hover {
+	cursor: pointer;
+	color: #ec971f;
+	transition-duration: .25s;
+}
+
+.maata-link-container {
+	margin-top: 40px;
+}
+#maata-link {
+	color: #fff;
+	text-decoration: none;
+}
+footer p {
+	color: #d2cccc;
 }
 /*end footer*/
 /*============================================================================================================*/
@@ -193,26 +229,32 @@ footer {
 /*BT OVERRIDES*/
 .panel-default>.panel-heading,
 .modal-header {
-	background-color: rgba(114,74,38, 1);
-	color: #fff;
-	
+	background-color: #724a26;
+	color: #fff;	
+}
+.panel-default .panel-body {
+	background-color: #fff4c0;
 }
 .panel-default, 
 .modal-content{
-	border-color: rgba(114,74,38, 1);
+	border-color: #724a26;
 }
 .modal-backdrop {
 	opacity: .7!important;
 }
+.modal .fa {
+	color:  #724a26;
+}
 
 /*END BT OVERRIDES*/
+
+/*FA OVERRIDES*/
+
+/*END FA OVERRDES*/
 /*===========================================================================================================*/
 /*media*/
 @media (min-width: 768px) {
-	
-	.interUlogo{
-		margin-bottom: -100px;
-	}
+
 }
 
 @media (max-width: 768px) {

@@ -62,8 +62,8 @@ class ApiController extends Controller
 
 				try {
                         $email = urlencode($email);
-                        $data = json_decode($api->request('get_user_by_email/' . $email));
-                         return view('pages.player.list', 'data');
+                        $data = json_decode($api->request('get_user_by_email/' . $email), true);
+                         return view('pages.player.list', compact('data'))->render();
                         
 
 				} catch (\RuntimeException $ex) {

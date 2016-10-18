@@ -88,37 +88,57 @@
                       The team should compose of unique members. If a team member is found to be registered to another team, the latter team will either find another member or they will not be able to register the tournament.
                     </li>
                     <li>
-                      A team should have a team leader or coordinator
+                      A team should have a team leader or coordinator.
                     </li>
                     <li>
-                      To apply for registration, the student must approach their respective Dean’s office for application. A recommendation letter from the said office will follow which includes the names of all the participants per team to be passed to the organizers of this tournament
+                      To apply for registration, the student must approach their respective Dean’s office for application. A recommendation letter from the said office will follow which includes the names of all the participants per team to be passed to the organizers of this tournament.
                     </li>
                     <li>
-                      Upon registration, the applicant will be given a beta key to access the official game website for the tournament. The website will post details and updates on the game tournament
+                      Upon registration, the applicant will be given a beta key to access the official game website for the tournament. The website will post details and updates on the game tournament.
                     </li>
                     <li>
-                      Each beta key is unique and will be given individually
+                      Each beta key is unique and will be given individually.
                     </li>
                     <li>
-                      The tournament will start on November 21, 2016 and will cover whole Mindanao Region
+                      The tournament will start on November 21, 2016 and will cover whole Mindanao Region.
                     </li>
                     <li>
-                      Deadline of registration of entries will be on November 7, 2016. Late entries will not be accommodated
+                      Deadline of registration of entries will be on November 7, 2016. Late entries will not be accommodated.
                     </li>
                   </ol>      
             </div>
       </section>      
       <!-- end rag -->
+
+      <!-- prizes -->
+      <section class="has-bg" id="prizes">
+            <div class="row featurette section-prizes">
+              <div class="col-md-12">
+                <h2 class="featurette-heading ta-center">Tournament Prizes</h2>                
+                <div class="text-container">
+                  <ol class="lead">
+                    <li>
+                      Prize 1
+                    </li>
+                    <li>
+                      Prize 2
+                    </li>
+                    <li>
+                      Prize 3
+                    </li>                    
+                  </ol>      
+            </div>
+      </section>
+      <!-- end prizes -->
+
       <!-- faq -->
       <section class="no-bg" id="faq">
         <h2 class="featurette-heading text-center">FAQs</h2>
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
           <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingOne">
+            <div class="panel-heading" role="tab" id="headingOne" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
               <h4 class="panel-title">
-                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   General Gameplay
-                </a>
               </h4>
             </div>
             <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
@@ -154,11 +174,9 @@
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingTwo">
+            <div class="panel-heading" role="tab" id="headingTwo" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   Registration
-                </a>
               </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -185,11 +203,9 @@
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="headingThree">
-              <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Login
-                </a>
+            <div class="panel-heading" role="tab" id="headingThree" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h4 class="panel-title">            
+                  Login                
               </h4>
             </div>
             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -216,7 +232,6 @@
           </div>
         </div>
       </section>
-      
       <!-- end faq -->
 </div><!-- /.container -->
 
